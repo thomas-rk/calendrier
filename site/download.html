@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WXS8654Q1R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-WXS8654Q1R');
+</script>
+  <meta charset="utf-8"/>
+  <title>Calendrier perpétuel</title>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  h3{
+    font-weight: bold;
+    color: #888;
+  }
+  </style>
+</head>
+<body>
+<div class="w3-top">
+  <div class="w3-bar w3-green">
+    <a href="index.html" class="w3-bar-item w3-button w3-hover-blue-gray"><i class="fa fa-home"></i></a>
+    <a href="download.html" class="w3-bar-item w3-button w3-hover-blue-gray w3-teal">FICHIERS</a>
+    <a href="cloud.html" class="w3-bar-item w3-button w3-hover-blue-gray">CLOUD</a>
+    <a href="faq.html" class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-hover-blue-gray">CONTACT</a>
+    <a href="faq.html" class="w3-bar-item w3-button w3-hide-small w3-hover-blue-gray">CONTACT+FAQ</a>
+    <div class="w3-bar-item w3-right w3-hide-small w3-hide-medium"><i>Calendriers pour LibreOffice Excel et Google Sheets</i></div> 
+  </div> 
+</div>
+<div class="w3-content" style="max-width:2000px;margin-top:36px">
+  <div class="w3-row-padding">
+    <div class="w3-col s12 m12 l6">
+      <div class="w3-card w3-margin-top w3-margin-bottom w3-light-gray">
+        <div class="w3-container">
+          <h4>calendriers et plannings avec zones scolaires</h4>
+        </div>
+        <div class="w3-row">
+          <div class="w3-half">
+            <img src="calA4_v.jpg" alt="calendrier A4" onclick="document.getElementById('calA4').style.display='block'" class="w3-image" style="cursor:pointer">
+            <div id="calA4" class="w3-modal" onclick="this.style.display='none'">
+              <div class="w3-modal-content w3-center">
+                <img src="calA4.png" class="w3-image">
+                <div class="w3-container w3-dark-gray">
+                  <p>Calendrier A4 recto/verso 2x6 mois ou 2x7 mois</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w3-half">
+            <img src="calA4det.jpg" alt="calendrier A4" onclick="document.getElementById('calA4det').style.display='block'" class="w3-image" style="cursor:pointer">
+            <div id="calA4det" class="w3-modal" onclick="this.style.display='none'">
+              <div class="w3-modal-content w3-center">
+                <img src="calA4det.jpg" class="w3-image">
+                <div class="w3-container w3-dark-gray">
+                  <p>événement personnalisable</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p>&#10003; affichage optionnel des zones scolaires ou congés, personnalisable
+          <br>&#10003; localisation des jours fériés selon les régions ou pays, personnalisable
+          <br>&#10003; possibilité d'ajouter des événements personnalisés en couleur (sans couleur dans la version Excel)
+          <br>&#10003; contient le calendrier A4 recto/verso et divers calendriers et plannings
+          <br>&#10003; vacances scolaires pour la France, les Outre Mer et la Belgique
+          </p>
+          <A HREF="calendrier_perpetuel.ods" onclick="gtag('event','dl_src',{'event_category':'download','event_label':this.href});" class="w3-button w3-padding-small w3-blue"><i class="fa fa-download"></i> LibreOffice</A>
+          <A HREF="calendrier_perpetuel.xlsx" onclick="gtag('event','dl_src',{'event_category':'download','event_label':this.href});" class="w3-button w3-padding-small w3-blue"><i class="fa fa-download"></i> Excel</A>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button w3-padding-small w3-red"><i class="fa fa-file-pdf-o"></i> PDF</button>
+            <div class="w3-dropdown-content w3-bar-block w3-border" style="width:300px">
+              <a href="calendrier_2025_vacances.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2025</a>
+              <a href="calendrier_2025_2026_vacances.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2025-2026</a>
+              <a href="calendrier_2026_vacances.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2026</a>
+              <a href="calendrier_2026_2027_vacances.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2026-2027</a>
+            </div>
+          </div>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button w3-padding-small w3-red"><i class="fa fa-file-pdf-o"></i> PDF sans zones scolaires</button>
+            <div class="w3-dropdown-content w3-bar-block w3-border" style="width:300px">
+              <a href="calendrier_2025.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2025</a>
+              <a href="calendrier_2026.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2026</a>
+              <a href="calendrier_2027.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2027</a>
+              <a href="calendrier_2028.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2028</a>
+              <a href="calendrier_2029.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2029</a>
+              <a href="calendrier_2030.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2030</a>
+            </div>
+          </div>
+          <p>Autres calendriers et plannings dans ce modèle&nbsp;:</p>
+        </div>
+        <div class="w3-row">
+          <div class="w3-half">
+            <img src="petit_v.jpg" alt="petit calendrier" onclick="document.getElementById('petit').style.display='block'" class="w3-image" style="cursor:pointer">
+            <div id="petit" class="w3-modal" onclick="this.style.display='none'">
+              <div class="w3-modal-content w3-center">
+                <img src="petit.png" class="w3-image">
+                <div class="w3-container w3-dark-gray">
+                  <p>Petit calendrier avec jours fériés<br>Les couleurs sont personnalisables sur tous les calendriers à l'aide des styles</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w3-half">
+            <img src="planning_v.jpg" alt="planning mensuel" onclick="document.getElementById('planning').style.display='block'" class="w3-image" style="cursor:pointer">
+            <div id="planning" class="w3-modal" onclick="this.style.display='none'">
+              <div class="w3-modal-content w3-center">
+                <img src="planning.png" class="w3-image">
+                <div class="w3-container w3-dark-gray">
+                  <p>Planning mensuel 12 mois ou planning continu 1 an, avec affichage optionnel d'une zone scolaire dans la version LibreOffice</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w3-half">
+            <img src="unmois_v.jpg" alt="planning mensuel" onclick="document.getElementById('unmois').style.display='block'" class="w3-image" style="cursor:pointer">
+            <div id="unmois" class="w3-modal" onclick="this.style.display='none'">
+              <div class="w3-modal-content w3-center">
+                <img src="unmois.png" class="w3-image">
+                <div class="w3-container w3-dark-gray">
+                  <p>Calendrier mensuel avec événements personnalisés en couleur (sans couleur dans la version Excel)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p class="w3-small w3-right-align">mise à jour 27 octobre 2025</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col s12 m6 l3">
+      <div class="w3-card w3-margin-top w3-margin-bottom w3-light-gray">
+        <div class="w3-container">
+        <h4>calendrier compact A4</h4>
+        </div>
+        <img src="compact_v.jpg" alt="calendrier compact A4" onclick="document.getElementById('compact').style.display='block'" class="w3-image" style="cursor:pointer">
+        <div id="compact" class="w3-modal" onclick="this.style.display='none'">
+          <div class="w3-modal-content w3-center">
+            <img src="compact.png" class="w3-image">
+            <div class="w3-container w3-dark-gray">
+              <p>Calendrier compact A4</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p>&#10003; affichage sur une page A4, une ligne par semaine
+          <br>&#10003; localisation des jours fériés selon les régions ou pays, personnalisable
+          </p>
+          <A HREF="calendrier_compact.ods" onclick="gtag('event','dl_src',{'event_category':'download','event_label':this.href});" class="w3-button w3-padding-small w3-blue"><i class="fa fa-download"></i> LibreOffice</A>
+          <A HREF="calendrier_compact.xlsx" onclick="gtag('event','dl_src',{'event_category':'download','event_label':this.href});" class="w3-button w3-padding-small w3-blue"><i class="fa fa-download"></i> Excel</A>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button w3-padding-small w3-red"><i class="fa fa-file-pdf-o"></i> PDF</button>
+            <div class="w3-dropdown-content w3-bar-block w3-border">
+              <a href="calendrier_compact_2025.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2025</a>
+              <a href="calendrier_compact_2026.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2026</a>
+              <a href="calendrier_compact_2027.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2027</a>
+              <a href="calendrier_compact_2028.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2028</a>
+              <a href="calendrier_compact_2029.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2029</a>
+              <a href="calendrier_compact_2030.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2030</a>
+            </div>
+          </div> 
+          <p><a href="http://davidseah.com/blog/compact-calendar/">
+          Le <I>Compact Calendar</I> est expliqué ici <i class="fa fa-external-link"></i></A>
+          </p>
+          <p class="w3-small w3-right-align"></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col s12 m6 l3">
+      <div class="w3-card w3-margin-top w3-margin-bottom w3-light-gray">
+        <div class="w3-container">
+        <h4>agenda semaine</h4>
+        </div>
+        <img src="agenda_v.jpg" alt="agenda semaine" onclick="document.getElementById('agenda').style.display='block'" class="w3-image" style="cursor:pointer">
+        <div id="agenda" class="w3-modal" onclick="this.style.display='none'">
+          <div class="w3-modal-content w3-center">
+            <img src="agenda.png" class="w3-image">
+            <div class="w3-container w3-dark-gray">
+              <p>2 semaines par page A4</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p>&#10003; présentation type agenda avec 2 semaines par page A4
+          <br>&#10003; localisation des jours fériés selon les régions ou pays, personnalisable
+          </p>
+          <A HREF="calendrier_semaine.ods" onclick="gtag('event','dl_src',{'event_category':'download','event_label':this.href});" class="w3-button w3-padding-small w3-blue"><i class="fa fa-download"></i> LibreOffice</A>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button w3-padding-small w3-red"><i class="fa fa-file-pdf-o"></i> PDF</button>
+            <div class="w3-dropdown-content w3-bar-block w3-border">
+              <a href="agenda_semaine_2025.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2025</a>
+              <a href="agenda_semaine_2026.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2026</a>
+              <a href="agenda_semaine_2027.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2027</a>
+              <a href="agenda_semaine_2028.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2028</a>
+              <a href="agenda_semaine_2029.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2029</a>
+              <a href="agenda_semaine_2030.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2030</a>
+            </div>
+          </div> 
+          <p><a href="http://www.lavachequireve.fr/articles.php?lng=fr&pg=1549">
+          Vous trouverez là un petit tutoriel sur l'utilisation ce cet agenda <i class="fa fa-external-link"></i></A>
+          </p>
+          <p class="w3-small w3-right-align"></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col s12 m6 l3">
+      <div class="w3-card w3-margin-top w3-margin-bottom w3-light-gray">
+        <div class="w3-container">
+        <h4>calendrier de poche A6</h4>
+        </div>
+        <img src="mini_v.jpg" alt="agenda semaine" onclick="document.getElementById('mini').style.display='block'" class="w3-image" style="cursor:pointer">
+        <div id="mini" class="w3-modal" onclick="this.style.display='none'">
+          <div class="w3-modal-content w3-center">
+            <img src="mini.jpg" class="w3-image">
+            <div class="w3-container w3-dark-gray">
+            </div>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p>&#10003; petit calendrier format A6 (10,5 x 15 cm)
+          <br>&#10003; affichage optionnel des zones scolaires ou congés, personnalisable
+          <br>&#10003; localisation des jours fériés selon les régions ou pays, personnalisable
+          <br>&#10003; vacances scolaires pour la France, les Outre Mer et la Belgique
+          </p>
+          <A HREF="calendrier_mini.ods" onclick="gtag('event','dl_src',{'event_category':'download','event_label':this.href});" class="w3-button w3-padding-small w3-blue"><i class="fa fa-download"></i> LibreOffice</A>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button w3-padding-small w3-red"><i class="fa fa-file-pdf-o"></i> PDF</button>
+            <div class="w3-dropdown-content w3-bar-block w3-border">
+              <a href="calendrier_mini_2025.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2025</a>
+              <a href="calendrier_mini_2026.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2026</a>
+            </div>
+          </div> 
+          <p>Imprimer recto/verso, option <i>retourner sur le bord court</i></p>
+          <p class="w3-small w3-right-align">mise à jour 27 octobre 2025</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col s12 m6 l3">
+      <div class="w3-card w3-margin-top w3-margin-bottom w3-light-gray">
+        <div class="w3-container">
+        <h4>calendrier mural 12 feuilles</h4>
+        </div>
+        <img src="mural_v.jpg" alt="agenda semaine" onclick="document.getElementById('mural').style.display='block'" class="w3-image" style="cursor:pointer">
+        <div id="mural" class="w3-modal" onclick="this.style.display='none'">
+          <div class="w3-modal-content w3-center">
+            <img src="mural.jpg" class="w3-image">
+            <div class="w3-container w3-dark-gray">
+              <p>Feuillets demi A4 présentés sur un carton A4
+        		  <br>Un modèle avec feuillets A4 est également proposé</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p>&#10003; présentation sur 12 feuilles A4 ou demi A4 pour réaliser un calendrier mural à feuilleter
+          <br>&#10003; localisation des jours fériés selon les régions ou pays, personnalisable
+          </p>
+          <A HREF="calendrier_mural_12_feuilles.ods" onclick="gtag('event','dl_src',{'event_category':'download','event_label':this.href});" class="w3-button w3-padding-small w3-blue"><i class="fa fa-download"></i> &#189; A4 LibreOffice</A>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button w3-padding-small w3-red"><i class="fa fa-file-pdf-o"></i> &#189; A4 PDF</button>
+            <div class="w3-dropdown-content w3-bar-block w3-border">
+              <a href="calendrier_mural_12_feuilles_2025.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2025</a>
+              <a href="calendrier_mural_12_feuilles_2026.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2026</a>
+              <a href="calendrier_mural_12_feuilles_2027.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2027</a>
+              <a href="calendrier_mural_12_feuilles_2028.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2028</a>
+              <a href="calendrier_mural_12_feuilles_2029.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2029</a>
+              <a href="calendrier_mural_12_feuilles_2030.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2030</a>
+            </div>
+          </div>
+          <p></p>
+          <A HREF="calendrier_mural_12_feuilles_A4.ods" onclick="gtag('event','dl_src',{'event_category':'download','event_label':this.href});" class="w3-button w3-padding-small w3-blue"><i class="fa fa-download"></i> A4 LibreOffice</A>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button w3-padding-small w3-red"><i class="fa fa-file-pdf-o"></i> A4 PDF</button>
+            <div class="w3-dropdown-content w3-bar-block w3-border">
+              <a href="calendrier_mural_12_feuilles_A4_2025.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2025</a>
+              <a href="calendrier_mural_12_feuilles_A4_2026.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2026</a>
+              <a href="calendrier_mural_12_feuilles_A4_2027.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2027</a>
+              <a href="calendrier_mural_12_feuilles_A4_2028.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2028</a>
+              <a href="calendrier_mural_12_feuilles_A4_2029.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2029</a>
+              <a href="calendrier_mural_12_feuilles_A4_2030.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2030</a>
+            </div>
+          </div>
+          <p class="w3-small w3-right-align"></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col s12 m12 l6">
+      <div class="w3-card w3-margin-top w3-margin-bottom w3-light-gray">
+        <div class="w3-container">
+          <h4>agenda de poche</h4>
+        </div>
+        <div class="w3-row">
+          <div class="w3-half">
+            <img src="pochem1_v.jpg" alt="calendrier A4" onclick="document.getElementById('pochem1').style.display='block'" class="w3-image" style="cursor:pointer">
+            <div id="pochem1" class="w3-modal" onclick="this.style.display='none'">
+              <div class="w3-modal-content w3-center">
+                <img src="pochem1.jpg" class="w3-image">
+              </div>
+            </div>
+          </div>
+          <div class="w3-half">
+            <img src="pochem2_v.png" alt="calendrier A4" onclick="document.getElementById('pochem2').style.display='block'" class="w3-image" style="cursor:pointer">
+            <div id="pochem2" class="w3-modal" onclick="this.style.display='none'">
+              <div class="w3-modal-content w3-center">
+                <img src="pochem2.png" class="w3-image">
+                <div class="w3-container w3-dark-gray">
+                  <p>Livret de 32 pages avec un mois par double page A6</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w3-row">
+          <div class="w3-half">
+            <img src="pocheS1_v.jpg" alt="calendrier A4" onclick="document.getElementById('pocheS1').style.display='block'" class="w3-image" style="cursor:pointer">
+            <div id="pocheS1" class="w3-modal" onclick="this.style.display='none'">
+              <div class="w3-modal-content w3-center">
+                <img src="pocheS1.jpg" class="w3-image">
+              </div>
+            </div>
+          </div>
+          <div class="w3-half">
+            <img src="pocheS2_v.jpg" alt="calendrier A4" onclick="document.getElementById('pocheS2').style.display='block'" class="w3-image" style="cursor:pointer">
+            <div id="pocheS2" class="w3-modal" onclick="this.style.display='none'">
+              <div class="w3-modal-content w3-center">
+                <img src="pocheS2.jpg" class="w3-image">
+                <div class="w3-container w3-dark-gray">
+                  <p>Livret de 112 pages avec une semaine par double page A6</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p>&#10003; agenda de poche format A6 (10,5 x 15 cm) à découper et à relier
+          <br>&#10003; localisation des jours fériés selon les régions ou pays, personnalisable
+          <p>Le modèle contient deux versions&nbsp;:
+          <br>&#10003; livret 32 pages, 1 mois par double page, impression sur 4 feuilles A4 recto/verso
+          <br>&#10003; livret 112 pages, 1 semaine par double page impression sur 14 feuilles A4 recto/verso
+          </p>
+          <A HREF="agenda_poche.ods" onclick="gtag('event','dl_src',{'event_category':'download','event_label':this.href});" class="w3-button w3-padding-small w3-blue"><i class="fa fa-download"></i> LibreOffice</A>
+          <div class="w3-dropdown-hover">
+            <button class="w3-button w3-padding-small w3-red"><i class="fa fa-file-pdf-o"></i> PDF vue 1 mois</button>
+            <div class="w3-dropdown-content w3-bar-block w3-border">
+              <a href="agenda_poche_mois_2025.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2025</a>
+              <a href="agenda_poche_mois_2025_2026.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2025-2026</a>
+              <a href="agenda_poche_mois_2026.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2026</a>
+              <a href="agenda_poche_mois_2026_2027.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2026-2027</a>
+              <a href="agenda_poche_mois_2027.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2027</a>
+              <a href="agenda_poche_mois_2027_2028.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2027-2028</a>
+              <a href="agenda_poche_mois_2028.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2028</a>
+              <a href="agenda_poche_mois_2028_2029.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2028-2029</a>
+              <a href="agenda_poche_mois_2029.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2029</a>
+              <a href="agenda_poche_mois_2029_2030.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2029-2030</a>
+              <a href="agenda_poche_mois_2030.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2030</a>
+            </div>
+          </div> 
+          <div class="w3-dropdown-hover">
+            <button class="w3-button w3-padding-small w3-red"><i class="fa fa-file-pdf-o"></i> PDF vue 1 semaine</button>
+            <div class="w3-dropdown-content w3-bar-block w3-border">
+              <a href="agenda_poche_semaine_2025.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2025</a>
+              <a href="agenda_poche_semaine_2025_2026.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2025-2026</a>
+              <a href="agenda_poche_semaine_2026.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2026</a>
+              <a href="agenda_poche_semaine_2026_2027.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2026-2027</a>
+              <a href="agenda_poche_semaine_2027.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2027</a>
+              <a href="agenda_poche_semaine_2027_2028.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2027-2028</a>
+              <a href="agenda_poche_semaine_2028.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2028</a>
+              <a href="agenda_poche_semaine_2028_2029.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2028-2029</a>
+              <a href="agenda_poche_semaine_2029.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2029</a>
+              <a href="agenda_poche_semaine_2029_2030.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2029-2030</a>
+              <a href="agenda_poche_semaine_2030.pdf" onclick="gtag('event','dl_pdf',{'event_category':'download','event_label':this.href});" class="w3-bar-item w3-button">2030</a>
+            </div>
+          </div> 
+          <p>Pour réaliser une couverture personnalisée, utilisez ces modèles 
+          <A HREF="couverture_agenda.odt" onclicgtag('event','dl_src',{'event_category':'download','event_label':this.href});f);" class="w3-button w3-padding-small w3-blue"><i class="fa fa-download"></i> LibreOffice</A>
+          <A HREF="couverture_agenda.docx" onclick="gtag('event','dl_src',{'event_category':'download','event_label':this.href});" class="w3-button w3-padding-small w3-blue"><i class="fa fa-download"></i> Word</A>
+          </p>
+          <p class="w3-button w3-padding-small w3-blue-grey" onclick="document.getElementById('instructions').style.display='block'">
+          <i class="fa fa-hand-scissors-o"></i> Instructions d'assemblage</p>
+          <div id="instructions" class="w3-modal" onclick="this.style.display='none'">
+            <div class="w3-modal-content w3-center">
+              <img src="a_poche_ins1.jpg" class="w3-image">
+              <img src="a_poche_ins2.jpg" class="w3-image">
+              <div class="w3-container w3-dark-gray">
+                <p>Imprimez recto/verso, coupez en deux et empilez les deux blocs...</p>
+              </div>
+              <img src="a_poche_ins3.jpg" class="w3-image">
+              <img src="a_poche_ins4.jpg" class="w3-image">
+              <div class="w3-container w3-dark-gray">
+                <p>...pliez et agrafez</p>
+              </div>
+            </div>
+          </div>
+          <p class="w3-small w3-right-align">mise à jour 24 novembre 2019</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col s12 m6 l3">
+      <div class="w3-card w3-margin-top w3-margin-bottom w3-light-gray">
+        <div class="w3-container">
+        <h4>calendrier pour le calcul des jours ouvrés</h4>
+          <p>&#10003; permet le calcul de la somme des jours ouvrés sur une période quelconque, cumul des heures ou des jours au choix
+          <br>&#10003; le calcul peut être modifié pour tenir compte des congés, demi-journées, jours fériés travaillés... 
+          <br>&#10003; il est possible de définir les jours de la semaine ouvrés&nbsp;: lundi-vendredi, mardi-samedi...
+          <br>&#10003; localisation des jours fériés selon les régions ou pays, personnalisable
+          </p>
+          <A HREF="calcul_jours_ouvres.ods" onclick="gtag('event','dl_src',{'event_category':'download','event_label':this.href});" class="w3-button w3-padding-small w3-blue"><i class="fa fa-download"></i> LibreOffice</A>
+          <p class="w3-small w3-right-align">mise à jour 4 décembre 2019</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col s12 m6 l3">
+      <div class="w3-card w3-margin-top w3-margin-bottom w3-light-gray">
+        <div class="w3-container">
+        <h4>calendrier A4 simplifié</h4>
+          <p>&#10003; jours fériés pour la France uniquement, non modifiables
+          <br>&#10003; permet de créer des calendriers couvrant plus d'une année
+          <br>&#10003; conception plus simple, donc plus facilement réutilisable et modifiable
+          </p>
+          <A HREF="calendrier_perpetuel_annuel_v16.zip" onclick="gtag('event','dl_src',{'event_category':'download','event_label':this.href});" class="w3-button w3-padding-small w3-blue"><i class="fa fa-download"></i> LibreOffice</A>
+          <p class="w3-small w3-right-align"></p>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+</body>
+</html> 
+

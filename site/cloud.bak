@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calendrier perp&eacute;tuel</title>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-16072011-1', 'free.fr');
+    ga('send', 'pageview');
+
+  </script>
+  <style>
+  h3{
+    font-weight: bold;
+    color: #888;
+  }
+  </style>
+</head>
+<body>
+<div class="w3-top">
+  <div class="w3-bar w3-green">
+    <a href="index.html" class="w3-bar-item w3-button w3-hover-blue-gray"><i class="fa fa-home"></i></a>
+    <a href="download.html" class="w3-bar-item w3-button w3-hover-blue-gray w3-hover-blue-gray">FICHIERS</a>
+    <a href="cloud.html" class="w3-bar-item w3-button w3-teal">CLOUD</a>
+    <a href="faq.html" class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-hover-blue-gray">CONTACT</a>
+    <a href="faq.html" class="w3-bar-item w3-button w3-hide-small w3-hover-blue-gray">CONTACT+FAQ</a>
+    <div class="w3-bar-item w3-right w3-hide-small w3-hide-medium"><i>Calendriers pour LibreOffice et Excel</i></div> 
+  </div> 
+</div>
+<div class="w3-content" style="max-width:2000px;margin-top:36px">
+  <div class="w3-row-padding">
+    <div class="w3-col s12 m12 l6">
+      <div class="w3-card w3-margin-top w3-margin-bottom w3-light-gray">
+        <div class="w3-container">
+          <h4>calendriers et plannings pour Google Sheets</h4>
+        </div>
+        <div class="w3-container">
+          <p>Ils peuvent &ecirc;tre partag&eacute;s et modifi&eacute;s de mani&egrave;re collaborative, par exemple pour la saisie de rendez-vous ou la r&eacute;servation de ressources partag&eacute;es.</p>
+          <p>Cliquez sur <B>Consulter</B> pour voir le mod&egrave;le en lecture seule.</p>
+          <p>Le bouton <B>Copier</B> va cr&eacute;er une copie dans votre propre espace Google Drive. Vous devez pr&eacute;alablement avoir un compte Google et &ecirc;tre connect&eacute;. Vous pourrez alors modifier le document, il sera visible de vous seul sauf si vous choisissez de le partager.</p>
+          <p>&#10003; modifiez l'ann&eacute;e directement sur le calendrier
+          <br>&#10003; affichage optionnel des zones scolaires ou cong&eacute;s, personnalisable
+          <br>&#10003; localisation des jours f&eacute;ri&eacute;s selon les r&eacute;gions ou pays, personnalisable
+          <br>&#10003; possibilit&eacute; d'ajouter des &eacute;v&eacute;nements personnalis&eacute;s en couleur (suivant mod&egrave;le)
+          <br>&#10003; vacances scolaires pour la France, les Outre Mer et la Belgique, mises &agrave; jour automatiquement dans vos documents, il n'est pas n&eacute;cessaire de r&eacute;cup&eacute;rer les derniers mod&egrave;les &agrave; jour
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col s12 m6 l3">
+      <div class="w3-card w3-margin-top w3-margin-bottom w3-light-gray">
+        <div class="w3-container">
+        <h4>calendrier A4 2x6 mois</h4>
+        </div>
+        <img src="gs_cal_v.jpg" alt="calendrier google sheets A4" onclick="document.getElementById('gs_cal').style.display='block'" class="w3-image" style="cursor:pointer">
+        <div id="gs_cal" class="w3-modal" onclick="this.style.display='none'">
+          <div class="w3-modal-content w3-center">
+            <img src="gs_cal.png" class="w3-image">
+            <div class="w3-container w3-dark-gray">
+              <p>Calendrier A4 2x6 mois Google Sheets avec &eacute;v&eacute;nements</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p>&#10003; 3 zones scolaires optionnelles
+          <br>&#10003; &eacute;v&eacute;nements personnalis&eacute;s
+          </p>
+          <A HREF="https://docs.google.com/spreadsheets/d/1HL_vWxMROT4VQBP5CNZTUe7ehxz3UjGsPRfYqJq6UJM/edit?usp=sharing" onclick="ga('send','event','Cloud','gs_vue',this.href);" class="w3-button w3-padding-small w3-blue"><i class="fa fa-eye"></i> Consulter</A>
+          <A HREF="https://docs.google.com/spreadsheets/d/1HL_vWxMROT4VQBP5CNZTUe7ehxz3UjGsPRfYqJq6UJM/copy" onclick="ga('send','event','Cloud','gs_copy',this.href);" class="w3-button w3-padding-small w3-blue"><i class="fa fa-cloud-upload"></i> Copier</A>
+          <p class="w3-small w3-right-align">mise &agrave; jour 23 d&eacute;cembre 2019</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col s12 m6 l3">
+      <div class="w3-card w3-margin-top w3-margin-bottom w3-light-gray">
+        <div class="w3-container">
+        <h4>planning horizontal</h4>
+        </div>
+        <img src="gs_plan_v.jpg" alt="calendrier google sheets A4" onclick="document.getElementById('gs_plan').style.display='block'" class="w3-image" style="cursor:pointer">
+        <div id="gs_plan" class="w3-modal" onclick="this.style.display='none'">
+          <div class="w3-modal-content w3-center">
+            <img src="gs_plan.png" class="w3-image">
+            <div class="w3-container w3-dark-gray">
+              <p>Planning horizontal avec une zone scolaire optionnelle</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p>une ann&eacute;e enti&egrave;re en ligne avec une colonne par jour, et autant de lignes que vous voulez pour organiser vos donn&eacute;es
+          <br>&#10003; 1 zone scolaire optionnelle
+          </p>
+          <A HREF="https://docs.google.com/spreadsheets/d/17DzG1AGpqboybyaWyR4h-3kBPj41CzxdE8mi49RUh6c/edit?usp=sharing" onclick="ga('send','event','Cloud','gs_vue',this.href);" class="w3-button w3-padding-small w3-blue"><i class="fa fa-eye"></i> Consulter</A>
+          <A HREF="https://docs.google.com/spreadsheets/d/17DzG1AGpqboybyaWyR4h-3kBPj41CzxdE8mi49RUh6c/copy" onclick="ga('send','event','Cloud','gs_copy',this.href);" class="w3-button w3-padding-small w3-blue"><i class="fa fa-cloud-upload"></i> Copier</A>
+          <p class="w3-small w3-right-align">mise &agrave; jour 23 d&eacute;cembre 2019</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col s12 m6 l3">
+      <div class="w3-card w3-margin-top w3-margin-bottom w3-light-gray">
+        <div class="w3-container">
+        <h4>planning vertical</h4>
+        </div>
+        <img src="gs_col_v.jpg" alt="calendrier google sheets A4" onclick="document.getElementById('gs_col').style.display='block'" class="w3-image" style="cursor:pointer">
+        <div id="gs_col" class="w3-modal" onclick="this.style.display='none'">
+          <div class="w3-modal-content w3-center">
+            <img src="gs_col.png" class="w3-image">
+            <div class="w3-container w3-dark-gray">
+              <p>Planning vertical avec &eacute;v&eacute;nements et zones scolaires</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-container">
+          <p>Une ann&eacute;e enti&egrave;re en colonne, avec une ligne par jour, et autant de colonnes que vous voulez pour organiser vos donn&eacute;es
+          <br>&#10003; 3 zones scolaires optionnelles
+          <br>&#10003; &eacute;v&eacute;nements personnalis&eacute;s
+          </p>
+          <A HREF="https://docs.google.com/spreadsheets/d/1Yp5AtsbXePKCG2IN_sQZTyZjiqKPsKvNhKu3hM6saf4/edit?usp=sharing" onclick="ga('send','event','Cloud','gs_vue',this.href);" class="w3-button w3-padding-small w3-blue"><i class="fa fa-eye"></i> Consulter</A>
+          <A HREF="https://docs.google.com/spreadsheets/d/1Yp5AtsbXePKCG2IN_sQZTyZjiqKPsKvNhKu3hM6saf4/copy" onclick="ga('send','event','Cloud','gs_copy',this.href);" class="w3-button w3-padding-small w3-blue"><i class="fa fa-cloud-upload"></i> Copier</A>
+          <p class="w3-small w3-right-align">mise &agrave; jour 23 d&eacute;cembre 2019</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-col s12 m6 l3">
+      <div class="w3-card w3-margin-top w3-margin-bottom w3-light-gray">
+        <div class="w3-container">
+        <h4>d'autres mod&egrave;les bient&ocirc;t...</h4>
+        </div>
+        <div class="w3-container">
+          <p>dites-moi si vous trouvez ces nouveaux mod&egrave;les Google Sheets utiles (page contact)
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+</body>
+</html> 
+

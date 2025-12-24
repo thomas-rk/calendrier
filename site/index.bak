@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>Calendrier perp&eacute;tuel</title>
+  <link rel="shortcut icon" href="favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-16072011-1', 'free.fr');
+    ga('send', 'pageview');
+
+  </script>
+</head>
+<body>
+<div class="w3-top">
+  <div class="w3-bar w3-green">
+    <a href="index.html" class="w3-bar-item w3-button w3-hover-blue-gray w3-teal"><i class="fa fa-home"></i></a>
+    <a href="download.html" class="w3-bar-item w3-button w3-hover-blue-gray">FICHIERS</a>
+    <a href="cloud.html" class="w3-bar-item w3-button w3-hover-blue-gray">CLOUD</a>
+    <a href="faq.html" class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-hover-blue-gray">CONTACT</a>
+    <a href="faq.html" class="w3-bar-item w3-button w3-hide-small w3-hover-blue-gray">CONTACT+FAQ</a>
+    <div class="w3-bar-item w3-right w3-hide-small w3-hide-medium"><i>Calendriers pour LibreOffice Excel et Google Sheets</i></div> 
+  </div> 
+</div>
+<div class="w3-content" style="max-width:2000px;margin-top:36px">
+  <img src="bandeau_s.jpg" class="w3-image w3-hide-large w3-hide-medium" alt="detail calendrier" style="width:100%"> 
+  <img src="bandeau_m.jpg" class="w3-image w3-hide-large w3-hide-small" alt="detail calendrier" style="width:100%"> 
+  <img src="bandeau.jpg" class="w3-image w3-hide-small w3-hide-medium" alt="detail calendrier" style="width:100%"> 
+  <div class="w3-row">
+
+    <div class="w3-third w3-container">
+      <h2>Calendrier perp&eacute;tuel pour LibreOffice Excel et Google Sheets</h2>
+      <h3 class="w3-text-gray">des calendriers gratuits et personnalisables &agrave; imprimer et partager</h3>
+	<A HREF="download.html" class="w3-button w3-padding-small w3-blue"><i class="fa fa-download"></i> Téléchargements</A>
+	<A HREF="cloud.html" class="w3-button w3-padding-small w3-blue"><i class="fa fa-cloud-upload"></i> Google Sheets</A>
+    </div>
+    <div class="w3-twothird w3-container">
+      <p>Ces calendriers perp&eacute;tuels affichent les <B>jours f&eacute;ri&eacute;s</B> et les changements d'heure pour diff&eacute;rentes zones ou pays : <B>France, Alsace Moselle, R&eacute;union, Mayotte, Martinique, Guadeloupe, Guyane, Polyn&eacute;sie fran&ccedil;aise, Nouvelle-Cal&eacute;donie, Saint-Pierre-et-Miquelon, Belgique, Luxembourg, 26 cantons suisses, 16 L&auml;nder allemands, Qu&eacute;bec</B>. J'accepte toute aide pour v&eacute;rifier ou compl&eacute;ter ces sp&eacute;cificit&eacute;s locales, <A HREF="faq.html">contactez-moi</A>.
+      <p>Ils sont fournis sous diff&eacute;rentes formes : calendrier A4 recto/verso, plannings, calendrier compact, agenda semaine, un calendrier mural 12 pages &agrave; feuilleter, deux agendas de poche &agrave; d&eacute;couper et relier.
+      <p>Il est possible d'afficher 3 zones de <B>vacances scolaires pour la France, les Outre Mer, la Belgique</B>. Par d&eacute;faut les zones A, B, C sont affich&eacute;es mais on peut s'en servir pour afficher n'importe quelles plages de jours pour des applications sp&eacute;cifiques&nbsp;: calendrier de garde altern&eacute;e, cong&eacute;s personnels, calendrier de rotation d'&eacute;quipes...
+    </div>
+  </div>
+  <div class="w3-row">
+    <div class="w3-col s12 m6 l3">
+    <img src="a_photo_petit.jpg" class="w3-image" alt="vues" style="width:100%"> 
+    </div>
+    <div class="w3-col s12 m6 l3">
+    <img src="a_calendrier-detail.png" class="w3-image" alt="vues" style="width:100%"> 
+    </div>
+    <div class="w3-col s12 m6 l3">
+    <img src="a_calendrier_mini.jpg" class="w3-image" alt="vues" style="width:100%"> 
+    </div>
+    <div class="w3-col s12 m6 l3">
+    <img src="a_poche2-sm.jpg" class="w3-image" alt="vues" style="width:100%"> 
+    </div>
+  </div>
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <p>Vous pouvez t&eacute;l&eacute;charger ces calendriers sous forme de mod&egrave;les de documents (templates) pour LibreOffice et Excel, ils vous permettent d'imprimer l'ann&eacute;e de votre choix et de personnaliser les documents. Des calendriers PDF sont &eacute;galement disponibles.
+      <p>Documents diffus&eacute;s sous licence <A HREF="http://www.openoffice.org/licenses/PDL.html" onclick="ga('send','event','Link','ext',this.href);">PDL <i class="fa fa-external-link"></i></A>.
+    </div>
+    <div class="w3-third w3-container w3-right-align">
+      <A TARGET="_blank" HREF="http://fr.libreoffice.org/" onclick="ga('send','event','Link','ext',this.href);"><IMG SRC="LibreOffice_external_logo_200px.png" class="w3-image" ALT="logo LibreOffice"></A>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html> 
+
